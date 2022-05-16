@@ -1,21 +1,10 @@
 {
   "name": "chakra-repro-6036",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stefee/chakra-repro-6036.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stefee/chakra-repro-6036/issues"
-  },
-  "homepage": "https://github.com/stefee/chakra-repro-6036#readme",
   "dependencies": {
     "@chakra-ui/react": "^2.0.0",
     "@emotion/react": "^11.9.0",
