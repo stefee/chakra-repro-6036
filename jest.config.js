@@ -1,6 +1,7 @@
 module.exports = {
   clearMocks: true,
   testEnvironment: "jsdom",
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   transform: {
     "^.+\\.jsx$": [
       "@swc-node/jest",
